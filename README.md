@@ -1,3 +1,6 @@
-## section 04(블루투포스)
-- 무식한 힘이라는 뜻으로 모든 경우의 수를 탐색해서 답을 찾는 알고리즘 문제 풀이 기법
-- 
+# Javascript algorithm
+## 완전 탐색(블루투포스)
+- [자리수의 합](/section04/pb01.js)
+- [뒤집은 소수](/section04/pb02.js)
+- [멘토링](/section04/pb03.js)
+  - redo ⬛
