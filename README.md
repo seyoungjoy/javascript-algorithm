@@ -20,7 +20,11 @@ function isPrime(num){
 - [K번째 큰 수](/section04/pb05.js)
 
 ## Section 5 효율성(투포인터 알고리즘, 슬라이딩윈도우, 해쉬)
+### Two Pointers Algorithm
 - [두 배열 합치기](/section05/pb01.js)
+- [공통원소 구하기](section05/pb02.js)
+- [연속 부분수열1](section05/pb03.js)
+  - 이중 for문`O(n^2)`으로 해결할 수 있는 문제를 투포인터`O(n)`로 해결했을 때 시간복잡도 감소.
 
 
 
@@ -43,4 +47,6 @@ const arr = [...set];
   - 시간 복잡도 계산
   - 엣지 케이스 계산
 - 사용하는 언어 특징 파악
+- 스스로 해보고 안되면 찾아본다.
+- 보고 따라치기 X, 읽고 혼자 해봐야함.
 - https://prgms.tistory.com/135?category=892800
