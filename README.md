@@ -1,24 +1,25 @@
 # Javascript algorithm
 ## Section 4 완전 탐색(블루투포스)
-| No  | Title                           | Difficulty | Review |
-|:---:|---------------------------------|:----------:|--------|
+| No  | Title                         | Difficulty | Review |
+|:---:|-------------------------------|:----------:|--------|
 |  1  | [자리수의 합](/section04/pb01.js)  |     ⭐      ||
-|  2  | [뒤집은 소수](/section04/pb02.js)   |     ⭐      ||
-|  3  | [멘토링](/section04/pb03.js)   |     ⭐      ||
-|  4  | [졸업 선물](/section04/pb04.js)  |     ⭐      ||
-|  5  |[K번째 큰 수](/section04/pb05.js)     |     ⭐      ||
+|  2  | [뒤집은 소수](/section04/pb02.js)  |     ⭐      ||
+|  3  | [멘토링](/section04/pb03.js)     |     ⭐      ||
+|  4  | [졸업 선물](/section04/pb04.js)   |     ⭐      ||
+|  5  | [K번째 큰 수](/section04/pb05.js) |     ⭐      ||
 
 
 ## Section 5 효율성(투포인터 알고리즘, 슬라이딩윈도우, 해쉬)
 
-| No  | Title                                |  Difficulty  | Review |
-|:---:|--------------------------------------|:------------:|--------|
-|  1  | [두 배열 합치기(tp)](/section05/pb01.js)   |      ⭐       ||
-|  2  | [공통원소 구하기(tp)](section05/pb02.js)        |      ⭐       ||
-|  3  | [연속 부분수열1(tp)](section05/pb03.js)        |      ⭐       ||
-|  4  | [연속 부분수열2(tp)](/section05/pb04.js)       |     ⭐⭐⭐      ||
-|  5  | [최대 매출(슬라이딩윈도우)](/section05/pb05.js) |     ⭐      ||
-|  5  | [학급 회장(Hash Map](/section05/pb06.js) |     ⭐      ||
+| No  | Title                                 | Difficulty | Review |
+|:---:|---------------------------------------|:----------:|--------|
+|  1  | [두 배열 합치기(tp)](/section05/pb01.js)    |     ⭐      ||
+|  2  | [공통원소 구하기(tp)](section05/pb02.js)     |     ⭐      ||
+|  3  | [연속 부분수열1(tp)](section05/pb03.js)     |     ⭐      ||
+|  4  | [연속 부분수열2(tp)](/section05/pb04.js)    |    ⭐⭐⭐     ||
+|  5  | [최대 매출(슬라이딩윈도우)](/section05/pb05.js)  |     ⭐      ||
+|  6  | [학급 회장(Hash Map)](/section05/pb06.js) |     ⭐      ||
+|  7  | [아나그램(Hash Map)](/section05/pb07.js)  |     ⭐      ||
 
 ### Two Pointers Algorithm
   - 이중 for문`O(n^2)`으로 해결할 수 있는 문제를 투포인터`O(n)`로 해결했을 때 시간복잡도 감소.
@@ -74,7 +75,7 @@ map.has(lee); //true
   - `Map.prototype.values` : 요소값 반환
   - `Map.prototype.entries` : 요소키, 요소값 반환
 
-## 알고리즘 tip
+## tip
 - 익숙해지기
   - 긴 문제지문 읽고 요약해서 읽을 필요가 있음.
   - 시간 복잡도 계산
