@@ -20,10 +20,21 @@
 |  5  | [최대 매출(Sliding Window)](/section05/pb05.js) |     ⭐      ||
 |  6  | [학급 회장(Hash Map)](/section05/pb06.js)       |     ⭐      ||
 |  7  | [아나그램(Hash Map)](/section05/pb07.js)        |     ⭐      ||
-|  8  | [모든 아나그램(Hash&SW&TP)](/section05/pb07.js)   |    ⭐⭐⭐     ||
+|  8  | [모든 아나그램(Hash&SW&TP)](/section05/pb08.js)   |    ⭐⭐⭐     ||
 
 ### Two Pointers Algorithm
-  - 이중 for문`O(n^2)`으로 해결할 수 있는 문제를 투포인터`O(n)`로 해결했을 때 시간복잡도 감소.
+- 이중 for문`O(n^2)`으로 해결할 수 있는 문제를 투포인터`O(n)`로 해결했을 때 시간복잡도 감소.
+
+
+## Section 6 자료구조(스택, 큐)
+
+| No  | Title                             | Difficulty | Review |
+|:---:|-----------------------------------|:----------:|--------|
+|  1  | [올바른 괄호(스택](/section06/pb01.js)   |     ⭐      ||
+|  2  | [괄호 문자 제거(스택)](section06/pb02.js) |     ⭐      ||
+
+### stack
+- LIFO
 
 
 ## javascript memo
