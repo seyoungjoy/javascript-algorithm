@@ -34,6 +34,12 @@
 |  2  | [괄호 문자 제거(스택)](section06/pb02.js)    |     ⭐      ||
 |  3  | [크레인 인형뽑기(카카오기출)](section06/pb03.js) |     ⭐⭐     ||
 |  4  | [후위식 연산(postfix)](section06/pb04.js) |     ⭐      ||
+|  5  | [쇠막대기(스택)](section06/pb05.js)        |     ⭐      ||
+|  6  | [공주구하기(큐)](section06/pb06.js)        |     ⭐      ||
+|  7  | [교육과정설계(큐)](section06/pb07.js)       |     ⭐      ||
+
+## Section 7 정렬과 그리디, 결정알고리즘(이분검색)
+
 
 ### stack
 - LIFO
