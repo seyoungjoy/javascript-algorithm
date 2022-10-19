@@ -40,6 +40,12 @@
 
 ## Section 7 정렬과 그리디, 결정알고리즘(이분검색)
 
+| No  | Title                                     | Difficulty | Review |
+|:---:|-------------------------------------------|:----------:|--------|
+|  1  | [선택정렬](/section07/pb01.js)                |    ⭐⭐⭐     ||
+|  2  | [버븝정렬](section07/pb02.js)                 |     ⭐⭐     ||
+|  3  | [Special Sort(버블정렬응용)](section07/pb03.js) |     ⭐⭐     ||
+|  4  | [삽입정렬](section07/pb04.js)                 |    ⭐⭐⭐     ||
 
 ### stack
 - LIFO
@@ -94,6 +100,40 @@ map.has(lee); //true
   - `Map.prototype.keys` : 요소키 반환
   - `Map.prototype.values` : 요소값 반환
   - `Map.prototype.entries` : 요소키, 요소값 반환
+
+### 객체 복사
+- **얕은 복사(Shallow copy)**
+- 원시 값은 값 자체를 복사할 수 있지만 객체를 복사할 땐 참조값을 복사하게 된다.
+- 얕은 복사를한 객체는 참조값 주소가 같기 때문에 하나의 객체 값을 변경하면 나머지도 변수의 값도 변경된다.
+```jsx
+// 원시값 복사
+let a="hi";
+let b=a;
+console.log(b); //hi
+
+// 참조값 복사
+let c={ name:"young"};
+let d=c;
+// d의 name 프로퍼티 이름을 바꿔버리면 c의 name도 함께 바뀐다.
+// 왜냐? 둘은 같은 객체를 참조하고 있기 때문이다.
+d.name="seyoung";
+console.log(c.name); //seyoung
+```
+
+- **깊은 복사(Deep copy)**
+- 참조값을 복사하는게 아닌 값 자체를 복사하려면 깊은 복사를 수행해야한다.
+- 참조값이 아닌 객체의 프로퍼티 키, 값 자체를 복사
+```jsx
+// (1) assign
+let a = { age : 20};
+let b = Object.assign({}, a);
+
+// (2) spread 연산자
+let a = { age : 20};
+let b = {...a};
+
+```
+- 
 
 ## tip
 - 익숙해지기
