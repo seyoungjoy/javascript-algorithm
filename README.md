@@ -1,6 +1,5 @@
 # Javascript algorithm
 ## Section 4 완전 탐색(블루투포스)
-## Section 4 완전 탐색(블루투포스)
 | No  | Title                         | Difficulty | Review |
 |:---:|-------------------------------|:----------:|--------|
 |  1  | [자리수의 합](/section04/pb01.js)  |     ⭐      ||
