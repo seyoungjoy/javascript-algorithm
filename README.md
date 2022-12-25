@@ -7,7 +7,7 @@
 ### level 2
 - [기능개발(스택/큐)](programmers/level2/solution03.js)
 
-## js algorithm(인프런)
+## js algorithm
 ### section 4 완전 탐색(블루투포스) 
 - [자리수의 합](/js-algorithm/section04/pb01.js)
 - [뒤집은 소수](/js-algorithm/section04/pb02.js)
