@@ -1,54 +1,44 @@
 # Javascript algorithm
-## Section 4 완전 탐색(블루투포스)
-| No  | Title                         | Difficulty | Review |
-|:---:|-------------------------------|:----------:|--------|
-|  1  | [자리수의 합](/section04/pb01.js)  |     ⭐      ||
-|  2  | [뒤집은 소수](/section04/pb02.js)  |     ⭐      ||
-|  3  | [멘토링](/section04/pb03.js)     |     ⭐      ||
-|  4  | [졸업 선물](/section04/pb04.js)   |     ⭐      ||
-|  5  | [K번째 큰 수](/section04/pb05.js) |     ⭐      ||
+## programmers
+### level 1
+- [같은 숫자는 싫어(스택/큐)](programmers/level1/solution01.js)
+- [완주하지 못한 선수(해시)](programmers/level1/solution02.js)
 
+### level 2
+- [기능개발(스택/큐)](programmers/level2/solution03.js)
 
-## Section 5 효율성(투포인터 알고리즘, 슬라이딩윈도우, 해쉬)
+## js algorithm(인프런)
+### section 4 완전 탐색(블루투포스) 
+- [자리수의 합](/js-algorithm/section04/pb01.js)
+- [뒤집은 소수](/js-algorithm/section04/pb02.js)
+- [멘토링](/js-algorithm/section04/pb03.js)    
+- [졸업 선물](/js-algorithm/section04/pb04.js)  
+- [K번째 큰 수](/js-algorithm/section04/pb05.js)
 
-| No  | Title                                       | Difficulty | Review |
-|:---:|---------------------------------------------|:----------:|--------|
-|  1  | [두 배열 합치기(TP)](/section05/pb01.js)          |     ⭐      ||
-|  2  | [공통원소 구하기(TP)](section05/pb02.js)           |     ⭐      ||
-|  3  | [연속 부분수열1(TP)](section05/pb03.js)           |     ⭐      ||
-|  4  | [연속 부분수열2(TP)](/section05/pb04.js)          |     ⭐⭐     ||
-|  5  | [최대 매출(Sliding Window)](/section05/pb05.js) |     ⭐      ||
-|  6  | [학급 회장(Hash Map)](/section05/pb06.js)       |     ⭐      ||
-|  7  | [아나그램(Hash Map)](/section05/pb07.js)        |     ⭐      ||
-|  8  | [모든 아나그램(Hash&SW&TP)](/section05/pb08.js)   |    ⭐⭐⭐     ||
+###  Section 5 효율성(투포인터 알고리즘, 슬라이딩윈도우, 해쉬)
+- [두 배열 합치기(TP)](/js-algorithm/section05/pb01.js)         
+- [공통원소 구하기(TP)](js-algorithm/section05/pb02.js)          
+- [연속 부분수열1(TP)](js-algorithm/section05/pb03.js)          
+- [연속 부분수열2(TP)](/js-algorithm/section05/pb04.js)         
+- [최대 매출(Sliding Window)](/js-algorithm/section05/pb05.js)
+- [학급 회장(Hash Map)](/js-algorithm/section05/pb06.js)      
+- [아나그램(Hash Map)](/js-algorithm/section05/pb07.js)       
+- [모든 아나그램(Hash&SW&TP)](/js-algorithm/section05/pb08.js)
 
-### Two Pointers Algorithm
-- 이중 for문`O(n^2)`으로 해결할 수 있는 문제를 투포인터`O(n)`로 해결했을 때 시간복잡도 감소.
+### Section 6 자료구조(스택, 큐)
+- [올바른 괄호(스택](/js-algorithm/section06/pb01.js)     
+- [괄호 문자 제거(스택)](js-algorithm/section06/pb02.js)   
+- [크레인 인형뽑기(카카오기출)](js-algorithm/section06/pb03.js)
+- [후위식 연산(postfix)](js-algorithm/section06/pb04.js)
+- [쇠막대기(스택)](js-algorithm/section06/pb05.js)       
+- [공주구하기(큐)](js-algorithm/section06/pb06.js)       
+- [교육과정설계(큐)](js-algorithm/section06/pb07.js)
 
-
-## Section 6 자료구조(스택, 큐)
-
-| No  | Title                                | Difficulty | Review |
-|:---:|--------------------------------------|:----------:|--------|
-|  1  | [올바른 괄호(스택](/section06/pb01.js)      |     ⭐      ||
-|  2  | [괄호 문자 제거(스택)](section06/pb02.js)    |     ⭐      ||
-|  3  | [크레인 인형뽑기(카카오기출)](section06/pb03.js) |     ⭐⭐     ||
-|  4  | [후위식 연산(postfix)](section06/pb04.js) |     ⭐      ||
-|  5  | [쇠막대기(스택)](section06/pb05.js)        |     ⭐      ||
-|  6  | [공주구하기(큐)](section06/pb06.js)        |     ⭐      ||
-|  7  | [교육과정설계(큐)](section06/pb07.js)       |     ⭐      ||
-
-## Section 7 정렬과 그리디, 결정알고리즘(이분검색)
-
-| No  | Title                                     | Difficulty | Review |
-|:---:|-------------------------------------------|:----------:|--------|
-|  1  | [선택정렬](/section07/pb01.js)                |    ⭐⭐⭐     ||
-|  2  | [버븝정렬](section07/pb02.js)                 |     ⭐⭐     ||
-|  3  | [Special Sort(버블정렬응용)](section07/pb03.js) |     ⭐⭐     ||
-|  4  | [삽입정렬](section07/pb04.js)                 |    ⭐⭐⭐     ||
-
-### stack
-- LIFO
+### Section 7 정렬과 그리디, 결정알고리즘(이분검색)
+- [선택정렬](/js-algorithm/section07/pb01.js)               
+- [버븝정렬](js-algorithm/section07/pb02.js)                
+- [Special Sort(버블정렬응용)](js-algorithm/section07/pb03.js)
+- [삽입정렬](js-algorithm/section07/pb04.js)
 
 
 ## javascript memo
