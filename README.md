@@ -6,6 +6,8 @@
 
 ### level 2
 - [기능개발(스택/큐)](programmers/level2/solution03.js)
+- [가장 큰 수(정렬)](programmers/level2/solution04.js)
+- [h-index(정렬)](programmers/level2/solution05.js)
 
 ## js algorithm
 ### section 4 완전 탐색(블루투포스) 
